@@ -24,7 +24,8 @@ planets = planets.filter(function(e){return e.charAt(0) === "E"});
 console.log(planets);
 
 // Use the reduce method to create a sentence from the words in the following array
-	/* The reduce method reduces the array to a single value, calling the function on each element of the array from left to right. */
+	/* The reduce method reduces the array to a single value, calling the function on each element of the array
+	from left to right. */
 var words = ["The", "early", "bird", "might", "get", "the", "worm", "but", "the", "second", "mouse", "gets", "the", "cheese"];
 words = words.reduce(function(total, string){return total + " " + string});
 words = words + ".";
